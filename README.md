@@ -1,2 +1,2 @@
 # cywteow.github.io
-credit to groggyegg of dramacool
+credit to groggyegg
