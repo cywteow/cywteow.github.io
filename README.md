@@ -1,2 +1,2 @@
 # cywteow.github.io
-Releases for Kodi video addon
+credit to groggyegg of dramacool
