@@ -1,2 +1,2 @@
 # cywteow.github.io
-credit to groggyegg
+Credit to https://github.com/groggyegg
