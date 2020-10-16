@@ -53,6 +53,34 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="plugin.video.kshowonline" name="KShowOnline" version="1.0.0" provider-name="cywteow">
+		<requires>
+			<import addon="script.module.beautifulsoup4" version="4.6.2"/>
+			<import addon="script.module.requests" version="2.22.0"/>
+			<import addon="script.module.rerouting" version="0.1.2"/>
+			<import addon="script.module.resolveurl" version="5.1.10"/>
+			<import addon="xbmc.python" version="2.26.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_GB">Watch KShowOnline on KODI</summary>
+			<description lang="en_GB"></description>
+			<language></language>
+			<platform>all</platform>
+			<license>GPL-3.0</license>
+			<forum></forum>
+			<website>cywteow.github.io</website>
+			<source></source>
+			<news></news>
+			<disclaimer></disclaimer>
+			<assets>
+				<icon>icon.png</icon>
+				<!-- <fanart>resources/fanart.jpg</fanart> -->
+			</assets>
+		</extension>
+	</addon>
 	<addon id="script.module.rerouting" name="rerouting" version="0.1.2" provider-name="fredrik-sy">
 		<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
