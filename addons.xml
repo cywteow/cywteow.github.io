@@ -81,6 +81,17 @@
 			</assets>
 		</extension>
 	</addon>
+	<addon id="plugin.video.dramacool" name="DramaCool" version="1.8.5" provider-name="groggyegg">
+		<requires>
+			<import addon="script.module.lxml" optional="true"/>
+			<import addon="script.module.resolveurl" version="5.0.38"/>
+			<import addon="script.module.requests" version="2.22.0"/>
+			<import addon="xbmc.python" version="2.26.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+			<provides>video</provides>
+		</extension>
+	</addon>
 	<addon id="script.module.rerouting" name="rerouting" version="0.1.2" provider-name="fredrik-sy">
 		<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
