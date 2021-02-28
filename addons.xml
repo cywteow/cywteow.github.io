@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-	<addon id="plugin.video.langlangbay" name="LangLangBay" version="1.4.1" provider-name="cywteow">
+	<addon id="plugin.video.langlangbay" name="LangLangBay" version="2.0.0" provider-name="cywteow">
 		<requires>
-			<import addon="xbmc.python" version="2.25.0"/>
+			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.requests" version="2.22.0"/>
-			<import addon="script.module.beautifulsoup4" version="4.5.3"/>
+			<import addon="script.module.beautifulsoup4" version="4.8.2"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="main.py">
 			<provides>video</provides>
@@ -16,7 +16,7 @@
 			<platform>all</platform>
 			<license>GPL-3.0</license>
 			<forum></forum>
-			<website>cywteow.github.io</website>
+			<website></website>
 			<source></source>
 			<news></news>
 			<disclaimer></disclaimer>
@@ -25,13 +25,13 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.gogoanime" name="gogoanime" version="1.3.6" provider-name="cywteow">
+	<addon id="plugin.video.gogoanime" name="GoGoAnime" version="2.0.0" provider-name="cywteow">
 		<requires>
-			<import addon="script.module.beautifulsoup4" version="4.6.2"/>
+			<import addon="script.module.beautifulsoup4" version="4.8.2"/>
 			<import addon="script.module.requests" version="2.22.0"/>
-			<import addon="script.module.rerouting" version="0.1.2"/>
-			<import addon="script.module.resolveurl" version="5.1.10"/>
-			<import addon="xbmc.python" version="2.26.0"/>
+			<import addon="script.module.reroutingpy3" version="0.1.2"/>
+			<import addon="script.module.resolveurl" version="5.1.18"/>
+			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="addon.py">
 			<provides>video</provides>
@@ -53,13 +53,13 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.kshowonline" name="KShowOnline" version="1.0.0" provider-name="cywteow">
+	<addon id="plugin.video.kshowonline" name="KShowOnline" version="2.0.0" provider-name="cywteow">
 		<requires>
-			<import addon="script.module.beautifulsoup4" version="4.6.2"/>
+			<import addon="script.module.beautifulsoup4" version="4.8.2"/>
 			<import addon="script.module.requests" version="2.22.0"/>
-			<import addon="script.module.rerouting" version="0.1.2"/>
-			<import addon="script.module.resolveurl" version="5.1.10"/>
-			<import addon="xbmc.python" version="2.26.0"/>
+			<import addon="script.module.reroutingpy3" version="0.1.2"/>
+			<import addon="script.module.resolveurl" version="5.1.18"/>
+			<import addon="xbmc.python" version="3.0.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="addon.py">
 			<provides>video</provides>
